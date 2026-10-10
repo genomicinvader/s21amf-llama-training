@@ -39,11 +39,15 @@ python generate_photo.py "Modern amateur radio station with glowing antennas at 
 ---
 
 ### 4. 1-Click Google Colab Training Notebook (`S21AMF_FineTune_Llama3_Colab.ipynb`)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/genomicinvader/s21amf-llama-training/blob/main/S21AMF_FineTune_Llama3_Colab.ipynb)
+
 For fine-tuning custom models on free cloud GPUs (Google Colab T4 16GB) without hardware limits.
 
+**Direct 1-Click Launch Link:**
+[👉 Open S21AMF Llama 3.1 Training in Google Colab](https://colab.research.google.com/github/genomicinvader/s21amf-llama-training/blob/main/S21AMF_FineTune_Llama3_Colab.ipynb)
+
 **How to use:**
-1. Open [Google Colab](https://colab.research.google.com/).
-2. Click **File > Upload notebook** and select `S21AMF_FineTune_Llama3_Colab.ipynb`.
+1. Click the link above (opens directly in Colab without any manual uploading).
 3. Go to **Runtime > Change runtime type** and ensure **T4 GPU** is selected.
 4. Click **Runtime > Run all** (Ctrl + F9).
 5. At the end, the notebook automatically downloads the fine-tuned `.gguf` model for your local Ollama!
